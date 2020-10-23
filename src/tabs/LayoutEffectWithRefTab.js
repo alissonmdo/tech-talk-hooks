@@ -1,5 +1,4 @@
 import React, { useState, useRef, useLayoutEffect } from 'react';
-// import { useMeasure } from './useMeasure';
 
 const LayoutEffectWithRefTab = () => {
   const [value, setValue] = useState('');
@@ -10,7 +9,6 @@ const LayoutEffectWithRefTab = () => {
 
   useLayoutEffect(() => {
     setRect(divRef.current.getBoundingClientRect());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value]);
 
   return (
