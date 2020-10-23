@@ -12,7 +12,7 @@ function EffectTab() {
     };
   }, []);
 
-  return <div></div>;
+return <div>{'EffectTab'}</div>;
 }
 
 export default EffectTab;

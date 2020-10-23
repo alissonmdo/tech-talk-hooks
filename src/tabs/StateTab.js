@@ -18,7 +18,7 @@ function StateTab() {
   };
 
   return (
-    <div className="StateTab">
+    <div className="Tab">
       <div>{count}</div>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <button onClick={() => setCountWithTimeout(count + 1)}>

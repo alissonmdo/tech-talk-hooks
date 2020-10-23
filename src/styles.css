@@ -21,7 +21,7 @@
   padding: 10px 0;
 }
 
-.StateTab {
+.Tab {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -29,7 +29,7 @@
   height: 100%;
   padding: 10px;
 }
-.StateTab > div {
+.Tab > div {
   text-align: center;
   padding: 100px;
   font-size: 2em;
