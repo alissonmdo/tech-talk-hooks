@@ -1,0 +1,19 @@
+.App {
+  margin: 25px;
+  background-color: #212121;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: calc(100vw - 50px);
+  height: calc(100vh - 50px);
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  padding: 10px;
+}
