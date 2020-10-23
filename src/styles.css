@@ -34,3 +34,7 @@
   padding: 100px;
   font-size: 2em;
 }
+
+.Tab > textarea {
+  height: fit-content;
+}

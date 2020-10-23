@@ -10,6 +10,9 @@ function Selector({ tab, setTab }) {
       <button onClick={() => setTab(2)}>
         useEffect & useRef {tab === 2 ? `🟢` : `🔴`}
       </button>
+      <button onClick={() => setTab(3)}>
+        useLayoutEffect & useRef {tab === 3 ? `🟢` : `🔴`}
+      </button>
     </div>
   );
 }

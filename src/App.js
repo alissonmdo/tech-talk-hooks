@@ -5,6 +5,7 @@ import { useCountRenders } from './hooks/useCountRenders';
 import './styles.css';
 import EffectTab from './tabs/EffectTab';
 import EffectWithRefTab from './tabs/EffectWithRefTab';
+import LayoutEffectWithRefTab from './tabs/LayoutEffectWithRefTab';
 import StateTab from './tabs/StateTab';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <EffectTab />
       ) : tab === 2 ? (
         <EffectWithRefTab />
+      ) : tab === 3 ? (
+        <LayoutEffectWithRefTab />
       ) : null}
     </div>
   );
